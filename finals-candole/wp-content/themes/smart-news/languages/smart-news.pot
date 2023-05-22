@@ -1,0 +1,297 @@
+# <!=Copyright (C) 2023 Eagle Vision IT
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart News 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 03:55:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Eagle Vision IT <eaglevisionit@gmail.com>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../smart-news\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: patterns/404.php:25
+msgid "404"
+msgstr ""
+
+#: functions.php:24
+msgid "Primary Menu"
+msgstr ""
+
+#: patterns/404.php:38
+msgid "PAGE NOT FOUND !"
+msgstr ""
+
+#: patterns/404.php:43
+msgid ""
+"The page you are looking for was moved, removed, renamed or might never "
+"existed."
+msgstr ""
+
+#: patterns/404.php:54
+msgid "BACK TO HOME PAGE"
+msgstr ""
+
+#: patterns/404.php:61
+msgid "CONTACT US"
+msgstr ""
+
+#: patterns/about.php:37
+msgid "Stories of Company"
+msgstr ""
+
+#: patterns/about.php:42
+msgid ""
+"One advanced diverted\r\n"
+"                    domestic repeated bringing you old. Possible procured "
+"her trifling laughter thoughts property she\r\n"
+"                    met way. Companions shy had solicitude favorable own. "
+"Which could saw guest man now heard but.\r\n"
+"                    Lasted my coming uneasy marked so should. Gravity "
+"letters it amongst herself dearest an windows by.\r\n"
+"                    Wooded ladies she basket season age her uneasy saw. "
+"Discourse unwilling am no described dejection\r\n"
+"                    incommode no listening of. Before nature his parish boy."
+msgstr ""
+
+#: patterns/about.php:55
+msgid "Company Owner"
+msgstr ""
+
+#: patterns/about.php:60
+msgid "Founder &amp; CEO"
+msgstr ""
+
+#: patterns/about.php:92
+msgid "Meet Our Authors"
+msgstr ""
+
+#: patterns/about.php:113 patterns/about.php:262
+msgid "David Mac"
+msgstr ""
+
+#: patterns/about.php:148
+msgid "Maia malandon"
+msgstr ""
+
+#: patterns/about.php:183
+msgid "Wyatt Leach"
+msgstr ""
+
+#: patterns/about.php:216
+msgid "Authors Feedback"
+msgstr ""
+
+#: patterns/about.php:252
+msgid ""
+"One advanced diverted domestic set repeated bringing you old. Possible\r\n"
+"                            procured her trifling laughter thoughts "
+"property she met way. Which could saw guest man now\r\n"
+"                            heard but."
+msgstr ""
+
+#: patterns/about.php:266
+msgid "Designer"
+msgstr ""
+
+#: patterns/contact.php:24
+msgid "Get In Touch"
+msgstr ""
+
+#: patterns/contact.php:28
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium,\r\n"
+"                        totam rem aperiam, eaque ipsa quae ab illo "
+"inventore veritatis et quasi architecto beatae vitae\r\n"
+"                        dicta sunt explicabo. Nemo enim ipsam voluptatem "
+"quia voluptas sit aspernatur aut odit aut\r\n"
+"                        fugit, sed quia consequuntur magni"
+msgstr ""
+
+#: patterns/contact.php:40
+msgid "+1 (123) 456-7890"
+msgstr ""
+
+#: patterns/contact.php:45
+msgid "eagle-vision@gmail.com"
+msgstr ""
+
+#: patterns/contact.php:50
+msgid "Kupondol, kathmandu"
+msgstr ""
+
+#: patterns/editor-choice.php:21
+msgid "Editors Choice"
+msgstr ""
+
+#: patterns/editor-choice.php:28 patterns/latest-videos.php:28
+#: patterns/recent-stories.php:32 patterns/top-stories.php:241
+msgid "View More"
+msgstr ""
+
+#: patterns/footer.php:32
+msgid ""
+"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium "
+"doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore "
+"veritatis et quasi architecto beatae vitae dicta sunt explicabo"
+msgstr ""
+
+#: patterns/footer.php:44
+msgid "Latest News"
+msgstr ""
+
+#: patterns/footer.php:59
+msgid "Contact us"
+msgstr ""
+
+#: patterns/footer.php:68
+msgid "66 Brooklyn street, New York"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "+14934437349"
+msgstr ""
+
+#: patterns/footer.php:85
+msgid "sobanive@mailinator.com"
+msgstr ""
+
+#: patterns/footer.php:98
+msgid "Subscribe Newsletter"
+msgstr ""
+
+#: patterns/footer.php:106
+msgid ""
+"Get the latest creative news from Katerio\r\n"
+"                    magazine"
+msgstr ""
+
+#: patterns/footer.php:131
+msgid "privacy policy"
+msgstr ""
+
+#: patterns/footer.php:144
+msgid "Copyright ©2023 Smart News by"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eagle Vision IT"
+msgstr ""
+
+#: patterns/latest-videos.php:20
+msgid "Latest Videos"
+msgstr ""
+
+#: patterns/popular-stories.php:21
+msgid "Popular Stories"
+msgstr ""
+
+#: patterns/recent-stories.php:25
+msgid "Recent Stories"
+msgstr ""
+
+#: patterns/recent-stories.php:98
+msgid "Most Read"
+msgstr ""
+
+#: patterns/recent-stories.php:156
+msgid "Social Connect"
+msgstr ""
+
+#: patterns/right-side-bar.php:19
+msgid "Follow us"
+msgstr ""
+
+#: patterns/right-side-bar.php:37 patterns/right-side-bar.php:59
+#: patterns/right-side-bar.php:81 patterns/search.php:79
+#: patterns/search.php:101 patterns/search.php:123
+msgid "20 Followers"
+msgstr ""
+
+#: patterns/right-side-bar.php:43 patterns/right-side-bar.php:65
+#: patterns/right-side-bar.php:87 patterns/right-side-bar.php:109
+#: patterns/search.php:85 patterns/search.php:107 patterns/search.php:129
+#: patterns/search.php:151
+msgid "like"
+msgstr ""
+
+#: patterns/right-side-bar.php:103 patterns/search.php:145
+msgid "10 Followers"
+msgstr ""
+
+#: patterns/right-side-bar.php:138 patterns/search.php:180
+msgid "Tags"
+msgstr ""
+
+#: patterns/search.php:40
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: patterns/search.php:60
+msgid " Follow us"
+msgstr ""
+
+#: patterns/search.php:301 patterns/single.php:118
+msgid "Related Post"
+msgstr ""
+
+#: patterns/single.php:38
+msgid "Share"
+msgstr ""
+
+#: patterns/top-stories.php:29
+msgid "Top Stories"
+msgstr ""
+
+#: patterns/top-stories.php:129
+msgid "Trending Stories"
+msgstr ""
+
+#: patterns/top-stories.php:234
+msgid "Weekly Highlights"
+msgstr ""
+
+#: patterns/top-stories.php:290
+msgid "Categories"
+msgstr ""
+
+#: patterns/top-stories.php:324
+msgid "Subscribe To Our Weekly Newsletters"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Smart News"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wpactivethemes.com/download/full-site-editing-themes/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Smart News is a versatile and modern magazine WordPress theme designed to "
+"elevate your website's news and editorial content. Built with compatibility "
+"in mind, it seamlessly integrates with the Gutenberg editor and popular "
+"page builders, providing you with endless possibilities for customization. "
+"As a full site editing (FSE) theme, Smart News theme empowers you to "
+"effortlessly create visually stunning pages and layouts. With its intuitive "
+"block-based design, you can easily arrange and showcase your articles, "
+"images, videos, and other media elements in a captivating and organized "
+"manner."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://eaglevisionit.com/"
+msgstr ""

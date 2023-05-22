@@ -1,0 +1,666 @@
+/*
+Theme Name: Smart News
+Theme URI: https://wpactivethemes.com/download/full-site-editing-themes/
+Author: Eagle Vision IT
+Author URI: http://eaglevisionit.com/
+Description: Smart News is a versatile and modern magazine WordPress theme designed to elevate your website's news and editorial content. Built with compatibility in mind, it seamlessly integrates with the Gutenberg editor and popular page builders, providing you with endless possibilities for customization. As a full site editing (FSE) theme, Smart News theme empowers you to effortlessly create visually stunning pages and layouts. With its intuitive block-based design, you can easily arrange and showcase your articles, images, videos, and other media elements in a captivating and organized manner.
+Version: 1.0.1
+Requires at least: 5.9
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: smart-news
+Tags: editor-style, right-sidebar, custom-menu, custom-logo, custom-colors, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments
+ */
+
+/* Styles intended only for the front.*/
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+.wp-site-blocks .wp-block-section,
+body > .is-root-container,
+.edit-post-visual-editor__post-title-wrapper,
+.has-background,
+.is-root-container .wp-block[data-align="full"] > .wp-block-group,
+.is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+  padding-left: var(--wp--custom--outer);
+  padding-right: var(--wp--custom--outer);
+  }
+
+ .search-icon {
+	transform: rotate(270deg);
+}
+
+
+
+
+ .search-icon {
+	transform: rotate(270deg);
+}
+.post{
+    position: relative;
+}   
+
+ .trending-post-categories {
+	position: absolute;
+    bottom:0;
+    line-height: 0;
+    z-index: 999;
+} 
+.recent-post-categories{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    line-height: 0;
+    z-index: 999;  
+}
+.recent-post-categories
+.taxonomy-category{
+    width: 114px;
+}
+
+  
+
+.opacity{
+    opacity:0.7;
+}
+
+
+
+.recent-stories-group .wp-block-heading , .popular-stories h3,.latest-videos h3 ,.Editor-choice h3,.Top-stories h4,.Trendy-stories h4 ,.weekly-highlights h3{
+	padding: 3px 30px 8px;
+    color: #333333;
+    font-weight: 500;
+}
+.recent-stories-view-more ,
+.weekly-highlight,
+.paragraph-view-more ,.background-unset{
+	background-color:unset !important;
+}
+.weekly-highlight{
+	position: relative;
+    top: -186px;
+    left: 63px;
+}
+
+.popular-stories::after,
+.latest-videos::after,
+
+.paragraph-view-more::after{
+	content: "\f061";
+  font-family: "Font Awesome 5 Free"; /* set the font family to Font Awesome */
+  font-weight: 600; /* set the font weight to ensure the icon is visible */
+  
+  color:  #FC3C68;  /* set the color of the icon */
+}
+
+.recent-stories-view-more p::after{
+    content: "\f061";
+    font-family: "Font Awesome 5 Free"; /* set the font family to Font Awesome */
+    font-weight: 600; /* set the font weight to ensure the icon is visible */
+    cursor: pointer;
+    margin-left: 10px;
+    color:  #fcec3c;  /* set the color of the icon */
+}
+
+
+
+.recent-stories-categories {
+    position: relative;
+    top: 66px;
+		left:10px;
+    z-index: 999;
+}
+
+.right-column-latestpost 
+.wp-block-latest-posts__featured-image {
+	margin:5px;
+}
+.right-column-latestpost 
+.wp-block-latest-posts__featured-image img {
+	border-radius:15px;
+}
+.most-read-line{
+	    max-width: 42px;
+    position: relative;
+    bottom: 40px;
+    right: 30px;
+    height: 1px;
+}
+.right-column-latestpost 
+h3{
+	
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    padding-right: 15px;
+    margin-bottom: 16px;
+}
+
+
+
+
+.right-column-latestpost 
+h3::after{
+content: "";
+    position: absolute;
+    left: 100%;
+    top: 55%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 45px;
+    height: 4px;
+    background-color: #FC3C68;
+    border-radius: 25px;
+
+}
+
+
+
+/* .social-icons
+.wp-social-link{
+	height:60px;
+} */
+.Search-button-nav input{
+	background:#151c2b;
+}
+.Search-button-nav button{
+	    border-radius: 0px;
+    background-color: #151c2b;
+    margin-left: -1px;
+	border-top-right-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+}
+#wp-block-search__input-14{
+	border-top-left-radius: 14px !important;
+    border-bottom-left-radius: 14px !important;
+}
+:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+	border:unset !important;
+}
+.wp-block-search__button.has-icon.wp-element-button{
+    position: relative;
+}
+.wp-block-search__button.has-icon.wp-element-button
+	.search-icon {
+		
+    position: absolute;
+    top: 14px;
+    right: 28px;
+}
+
+.social-icons li{
+	height:58px;
+}
+.social-icons 
+li
+a
+svg{
+	position:relative;
+	left:8px;
+	top:8px;
+}
+/* .wp-block-column.is-layout-flow{
+	position:relative;
+} */
+.social-media-link{
+	position:absolute;
+	top:-25px;
+	left:59px;
+}
+.popular-stories , .latest-videos{
+	display:flex;
+	justify-content:space-between;
+}
+.Editor-choices{
+	position:relative;
+}
+.Editor-choices 
+.Editor-choices-categories
+{
+	position:absolute;
+	top:27px;
+	z-index:999;
+	right:42px;
+    width: 94px;
+    text-align: center;
+    border-radius: 22px;
+    background: #FF019C;
+}
+.Editor-choice h2{
+	margin-left:18px;
+}
+.categories-list-items ul{
+	padding-top:5px;
+}
+
+.categories-list-items ul li{
+  list-style: none;
+}
+
+.categories-list-items ul li a{
+	list-style:none;
+	    border-radius:5px;
+	background-color:#101d4f;
+    display: flex;
+    padding: 24px 19px 24px 20px;
+    cursor: pointer;
+		margin-top:20px;
+    justify-content: center;
+	
+}
+.categories-section-list h5{
+	position:relative;
+}
+	
+.categories-section-list h5::after{
+	content: "";
+    position: absolute;
+    left: 116%;
+    top: 55%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 45px;
+    height: 4px;
+    background-color: #FC3C68;
+    border-radius: 25px;
+}
+
+#wp-block-search__input-156{
+	    border-top-left-radius: 19px;
+    border-bottom-left-radius: 24px;
+    background:#060C22;
+}
+.subscribe-button 
+.wp-block-search__button{
+	margin:0;
+     border-radius: 27px;
+	    border-top-left-radius: unset;
+    border-bottom-left-radius:unset;
+}
+
+.trending-post-categories.categories-selection{
+	background-color:unset !important;
+}
+.wp-block-search__button.has-text-color.has-background-color.has-background.has-luminous-vivid-amber-background-color {
+	margin :0;
+	border-top-left-radius:unset;
+	border-bottom-left-radius:unset;
+}
+.site-footer{
+	margin:0;
+}
+.site-footer
+.wp-block-group{
+	background-color: #060C22;
+}
+.smnart-news-footer-column{
+	margin-top:20px !important;
+}
+
+/*single page */
+.follow-us-social-icons{
+	    border: 2px solid #d9cdcd;
+    padding: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-submit
+.wp-block-button__link {
+	background:#DC7F0D;
+		border:1px solid #DC7F0D;
+}
+	.form-submit
+.wp-block-button__link:hover{
+	background:transparent ;
+	color:#DC7F0D;
+}
+.Related-post{
+    position: relative;
+}
+
+.Related-post  h3{
+	
+    background-color:#FC3C68;
+    
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 9px 18px 14px;
+
+}
+.Related-post  h3::after{
+	content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FC3C68;
+}
+
+.wp-block-site-title h2{
+    font-size: clamp(24px,1.9vw,36px) !important;
+	font-weight:bold;   
+}
+
+
+.social-icons 
+.wp-block-social-link 
+a svg {
+    height: 1.9em !important;
+    width: 2em !important;
+}
+.wp-block-social-links 
+.wp-social-link span:not(.screen-reader-text) {
+    font-size: 1em;
+    margin-left: 2.5em;
+    margin-right: 0.5em;
+    margin-top: 1em;
+}
+.banner h1 a {
+    font-size: unset;
+}
+
+.header-right 
+.header-search-bar{
+	width:80%;
+}
+
+/* .wp-block-latest-posts__featured-image.alignleft{
+	margin-right:unset !important;
+} */
+
+scroll-to-top {
+  position: fixed;
+  right: 20px;
+  background: #DC7F0D;
+  z-index: 99;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+  bottom: -30px;
+  transition: all 0.3s;
+}
+.sn-scrolldown .scroll-to-top {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99;
+  bottom: 20px;
+}
+.recent-stories-width {
+    gap: 0 !important;
+  }
+
+  @media (max-width:1200px)
+{  .column-right{
+    padding-left:  unset !important;
+    padding-right: unset !important;
+  }
+  .black-sale
+  img{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    background: #DC7F0D;
+    z-index: 99;
+    bottom: 0;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    bottom: -30px;
+    transition: all 0.3s;
+  }
+  .sn-scrolldown .scroll-to-top {
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+    bottom: 20px;
+  }
+
+
+.wpcf7-form-control {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
+.contact-form-list
+.wpcf7-text.wpcf7-validates-as-required{
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 2rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f3f6;
+} 
+ 
+
+form textarea {
+  border-radius: 5px;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  padding: 1rem 1.85rem;
+  resize: none;
+  background-color: #f2f3f6;
+  border: none;
+  font-size: 1rem;
+}
+/*  form input.wp-block-search__input,
+.site-footer form input,
+.site-footer form input[type="submit"]{
+  border-radius: 0px;
+}  */
+
+#wp-comment-cookies-consent {
+  width: 18px;
+}
+.nf-phone {
+  color: white;
+  position: relative; /* set the position of the date container to relative */
+  padding-left: 21px; /* add some left padding to make space for the icon */
+}
+
+.nf-phone:before {
+  content: "\f007"; /* use the Unicode code for the calendar icon */
+  font-family: "Font Awesome 5 Free"; /* set the font family to Font Awesome */
+  font-weight: 600; /* set the font weight to ensure the icon is visible */
+  position: absolute; /* position the icon absolutely within the date container */
+  left: 18px; /* set the left position of the icon to 0 */
+  top: 50%; /* vertically center the icon within the date container */
+  transform: translateY(-50%); /* adjust the position of the icon to center it vertically */
+  font-size: 16px; /* set the size of the icon */
+  color: white; /* set the color of the icon */
+}
+
+code {
+  padding-left: 20px;
+}
+
+.nf-phone,
+.nf-email,
+.nf-address {
+  color: white;
+  position: relative; /* set the position of the date container to relative */
+  padding-left: 21px; /* add some left padding to make space for the icon */
+}
+
+.nf-phone:before,
+.nf-email:before,
+.nf-address:before{
+  font-family: "Font Awesome 5 Free"; /* set the font family to Font Awesome */
+  font-weight: 600; /* set the font weight to ensure the icon is visible */
+  position: absolute; /* position the icon absolutely within the date container */
+  left: 18px; /* set the left position of the icon to 0 */
+  top: 50%; /* vertically center the icon within the date container */
+  transform: translateY(-50%); /* adjust the position of the icon to center it vertically */
+  font-size: 16px; /* set the size of the icon */
+  color: white; /* set the color of the icon */
+}
+.nf-phone:before {
+  content: "\f095"; /* use the Unicode code for the calendar icon */
+}
+.nf-email:before {
+  content: "\f0e0"; /* use the Unicode code for the calendar icon */
+}
+.nf-address:before {
+  content: "\f2b9"; /* use the Unicode code for the calendar icon */
+}
+
+
+/* .wpcf7-submit:hover {
+  color: #FFFFFF;
+  background-color: red;
+}
+
+.wpcf7 p {
+  margin-block-start: unset;
+}
+*/
+
+.contact-form-list
+form
+p
+input{
+    background-color:#DC7F0D;
+    color: #FFFFFF;
+    border-radius: 0px;
+    border-width: 0px;
+    border-style: solid;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    line-height: 1;
+    padding-top: 18px;
+    padding-right: 40px;
+    padding-bottom: 19px;
+    padding-left: 40px;
+    text-decoration: none;
+	border:1px solid #DC7F0D;
+	
+}
+.contact-form-list
+form
+p
+input:hover{
+	background:transparent;
+	color:#DC7F0D;
+}
+
+.banner-recent-stories {
+  border-style: outset !important;
+  border-left: 5px solid #ff019c;
+  border-width: 0px;
+} 
+
+
+.latest-news-footer{
+	text-align:unset;
+
+}
+
+@media (max-width:1000px){
+	.wp-block-column.is-vertically-aligned-center {
+    align-self: unset;
+}
+}
+.wp-block-navigation__submenu-container.home-nav.wp-block-navigation-submenu{
+	align-items:center;
+	min-width:152px !important;
+}
+.wp-block-navigation__submenu-container.home-nav.wp-block-navigation-submenu li{
+	padding:9px;
+}
+
+/* single page */
+.entry-content.wp-block-post-content.is-layout-flow{
+	color: #ddcccc;
+}
+/*aboutus page*/
+
+.wp-block-image{
+  position: relative;
+}
+.wp-block-image.size-full.is-resized::after
+{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 4px;
+  background-color: red;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 0;
+}
+
+
+
+.wp-block-image.size-full.is-resized:hover::after
+{
+ width: 100%;
+ opacity: 2;
+}
+
+.header-search-bar 
+input::placeholder{
+	color:white;
+}
+
+.home-nav
+li{
+	border-bottom: 1px solid #e1c9c9;
+    width: 100%;
+}
+.home-nav
+li:hover{
+background-color:#ff0fb4;
+	color:white;
+}
+
+	.wpcf7-not-valid-tip{
+    color: white;
+  }
+  .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    width: unset !important;
+}
